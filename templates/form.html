@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sales Prediction Form</title>
+</head>
+<body>
+    <h1>Predict Sales</h1>
+    <form method="post" action="/predict">
+        <label>Year: <input type="number" name="year" required></label><br>
+        <label>Month: <input type="number" name="month" required></label><br>
+        <label>State: <input type="text" name="stateDescription" required></label><br>
+        <label>Sector: <input type="text" name="sectorName" required></label><br>
+        <label>Customers: <input type="number" step="any" name="customers" required></label><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
